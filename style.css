@@ -14,55 +14,87 @@ html {
 body {
     background-image: url("images/dark_background.jpg");
 }
-#program_container {
-    width: 60vw;
-    height: fit-content;
-    
-    margin-top: 20vh;
-    position: absolute;           
-    right: 50%;                       
-    transform: translate(50%, 0);
-
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-between;
-
-    background: linear-gradient(to right, #222, #1b1b1b);
-    border-radius: 50px;
-}
 
 #logo {
-    text-align: center;
-    padding: 2%;
     display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: 2.5vw;
+    margin: 4% 5% 4% 0;
 }
 #logo img {
-    width: 15vw;
-    height: 15vw;
+    width: 18vw;
+    height: 18vw;
 }
 #logo p {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-style: italic;
     font-weight: 500;
+}
+
+#program_container {
+    width: 60vw;
+    height: 60vh;
+    margin-bottom: 10vh;
+
+    transform: translate(30%, 0);
+
+    background: linear-gradient(to right, #222, #1b1b1b);
+}
+#program_nav {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+
+    flex: 1 1;
+
+    height: 10vh;
+    width: 100%;
+
+    background: linear-gradient(to right, #1b1b1b, #111);
+}
+.button {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    position: relative;
+    transition: background-color 0.5s;
+}
+.button p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#button_program {
+    background-color: #0e0e0e;
+}
+#button_members {
+    background-color: initial;
 }
 
 footer {
     width: 100%;
     height: 8vh;
 
-    position: absolute;
-    bottom: 0;
+    position: relative;
 
     background-color: #111;
 }
 footer p {
-    color: #444;
-
+    color: #555;
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    html {
+        font-size: 8px;
+    }
 }
