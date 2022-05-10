@@ -14,13 +14,12 @@ html {
 body {
     background-image: url("images/dark_background.jpg");
 }
-
-.main_container {
-    width: 50vw;
+#program_container {
+    width: 60vw;
     height: fit-content;
-    margin: 20vh 0;
     
-    top: 50%;                        
+    margin-top: 20vh;
+    position: absolute;           
     right: 50%;                       
     transform: translate(50%, 0);
 
@@ -32,17 +31,30 @@ body {
     background: linear-gradient(to right, #222, #1b1b1b);
     border-radius: 50px;
 }
-.main_container .logo {
-    width: 25vw;
-    height: 25vw;
-    padding: 5%;
+
+#logo {
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    column-gap: 2.5vw;
+}
+#logo img {
+    width: 15vw;
+    height: 15vw;
+}
+#logo p {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 500;
 }
 
 footer {
     width: 100%;
-    height: 10vh;
+    height: 8vh;
 
-    position: relative;
+    position: absolute;
+    bottom: 0;
 
     background-color: #111;
 }
