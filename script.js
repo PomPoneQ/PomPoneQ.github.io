@@ -1,11 +1,11 @@
 $(function() {
 
-    $("#program_container").hide();
+    $("#main_container").hide();
     $("footer").hide();
 
     // animations
     $("#logo").toggle("slide", 0.01).toggle("slide", 1500, function() {
-        $("#program_container").show(500, function() {
+        $("#main_container").show(500, function() {
             $("footer").show(200);
         });
     });
