@@ -29,20 +29,25 @@ body {
     height: 18vw;
 }
 #logo p {
-    font-size: 3rem;
+    font-size: 3.75rem;
     font-style: italic;
     font-weight: 500;
+}
+#logo p span {
+    color: red;
 }
 
 /*main container setup*/
 #main_container {
     width: 60vw;
-    height: 60vh;
-    margin-bottom: 10vh;
+    height: 80vh;
+    margin-bottom: 15vh;
 
     transform: translate(30%, 0);
 
-    background: linear-gradient(to right, #222, #1b1b1b);
+    background-color: #111;
+
+    box-shadow: 0.2rem 0.2rem 0.5rem black;
 }
 #main_nav {
     display: flex;
@@ -51,10 +56,8 @@ body {
 
     flex: 1 1;
 
-    height: 10vh;
+    height: 15%;
     width: 100%;
-
-    background: linear-gradient(to right, #1b1b1b, #111);
 }
 /*main container buttons*/
 .button {
@@ -72,10 +75,91 @@ body {
     transform: translate(-50%, -50%);
 }
 #button_program {
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
 }
 #button_members {
     background-color: initial;
+}
+
+/*main body setup*/
+#main_body {
+    height: 80%;
+    width: 100%;
+
+    position: relative;
+}
+
+/*main content setup*/
+#main_content {
+    height: 100%;
+    width: 80%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: linear-gradient(to right, #1b1b1b 33%, #222 66%, #1b1b1b);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#main_content img {
+    order: 2;
+
+    margin-top: 15%;  
+
+    width: 40%;
+    height: 30%;
+}
+#main_content .heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-bottom: 4%;
+
+    width: 100%;
+    height: 20%;
+
+    color: rgb(218, 207, 5);
+    text-shadow: 0 0 0.4rem black;
+}
+#main_content .points {
+    font-size: 1.25rem;
+    line-height: 175%;
+    padding: 6% 2% 10% 2%;
+    height: 80%;
+    width: 50%;
+    color: rgb(255, 255, 220);
+}
+#main_content p span {
+    font-size: 1.5rem;
+    color: rgb(200, 200, 200);
+}
+
+/*blanks*/
+.blank {
+    width: 10%;
+    height: 100%;
+
+    position: absolute;
+}
+.blank img {
+    width: 75%;
+    height: 15%;
+    margin: 200% 0 200% 10%;
+
+    transition: scale() 0.5s;
+}
+#left_blank {
+    left: 0%;
+}
+#right_blank {
+    right: 0%;
 }
 
 /*footer setup*/
@@ -83,7 +167,8 @@ footer {
     width: 100%;
     height: 8vh;
 
-    position: relative;
+    position: fixed;
+    bottom: 0;
 
     background-color: #111;
 }
@@ -101,5 +186,8 @@ footer p {
 
     html {
         font-size: 8px;
+    }
+    #main_container {
+        height: 50vh;
     }
 }
