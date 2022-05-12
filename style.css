@@ -39,11 +39,14 @@ body {
 
 /*main container setup*/
 #main_container {
-    width: 60vw;
+    width: 70vw;
     height: 80vh;
     margin-bottom: 15vh;
 
-    transform: translate(30%, 0);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     background-color: #111;
 
@@ -73,6 +76,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    transition: font-size 0.5s;
 }
 #button_program {
     background-color: #0c0c0c;
@@ -104,14 +109,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-content: flex-end;
 }
 #main_content img {
     order: 2;
+    margin-top: 10%;  
+    margin-left: 4%;
 
-    margin-top: 15%;  
-
-    width: 40%;
-    height: 30%;
+    display: block;
+    max-width: 100%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
 }
 #main_content .heading {
     font-size: 2.5rem;
@@ -129,15 +138,14 @@ body {
     text-shadow: 0 0 0.4rem black;
 }
 #main_content .points {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: 175%;
-    padding: 6% 2% 10% 2%;
+    padding: 8% 0 10% 4%;
     height: 80%;
     width: 50%;
-    color: rgb(255, 255, 220);
 }
 #main_content p span {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: rgb(200, 200, 200);
 }
 
@@ -147,19 +155,30 @@ body {
     height: 100%;
 
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .blank img {
-    width: 75%;
-    height: 15%;
-    margin: 200% 0 200% 10%;
+    display: block;
+    max-width: 100%;
+    max-height: 15%;
+    width: auto;
+    height: auto;
+    width: 60%;
 
-    transition: scale() 0.5s;
+    transition: transform 0.35s;
 }
 #left_blank {
     left: 0%;
 }
 #right_blank {
     right: 0%;
+}
+/*white spacing div setup*/
+.white_space {
+    width: 10vh;
+    height: 90vh;
 }
 
 /*footer setup*/
@@ -188,6 +207,15 @@ footer p {
         font-size: 8px;
     }
     #main_container {
-        height: 50vh;
+        height: 45vh;
+        width: 80vw;
+        top: 50%;
+    }
+    #logo img {
+        width: 25vw;
+        height: 25vw;
+    }
+    .white_space {
+        height: 25vh;
     }
 }
