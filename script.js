@@ -129,7 +129,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 2:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/służba_zdrowia.jpg" alt="zdjęcie">
             <p class="heading">2. Lepsza służba zdrowia<p/>
             <p class="points">
             <span>2.1.</span> Wprowadzenie bezpłatnych badań kontrolnych dla osób powyżej 50 roku życia.<br/>
@@ -138,7 +138,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 3:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/Ekologia.jpg" alt="zdjęcie">
             <p class="heading">3. Ekologiczna Polska<p/>
             <p class="points">
             <span>3.1.</span> Objęcie większych lasów ochroną.<br/>
@@ -147,7 +147,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 4:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/edukacja.jpg" alt="zdjęcie">
             <p class="heading">4. Rozwój Edukacji<p/>
             <p class="points">
             <span>4.1.</span> Rozbudowa szkół.<br/>
@@ -156,7 +156,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 5:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/rodzina.jpg" alt="zdjęcie">
             <p class="heading">5. Wsparcie rodzin<p/>
             <p class="points">
             <span>5.1.</span> Pomoc rodzinom w wychowaniu poprzez comiesięczne świadczenia 
@@ -166,7 +166,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 6:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/turystyka.jpg" alt="zdjęcie">
             <p class="heading">6. Rozwój turystyki<p/>
             <p class="points">
             <span>6.1.</span> Bony na wakacje w Polsce.<br/>
@@ -174,7 +174,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 7:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/opłaty.jpg" alt="zdjęcie">
             <p class="heading">7. Mniej opłat<p/>
             <p class="points">
             <span>7.1.</span> Zniesienie opłat za drogi szybkiego ruchu.<br/>
@@ -182,7 +182,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 8:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/polityka_zagraniczna.jpg" alt="zdjęcie">
             <p class="heading">8. Efektywna polityka zagraniczna<p/>
             <p class="points">
             <span>8.1.</span> Rozwinięcie kontaktów między narodowych.<br/>
@@ -191,7 +191,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 9:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/materiały.jpg" alt="zdjęcie">
             <p class="heading">9. Tańsze materiały</p>
             <p class="points">
             <span>9.1.</span> Ceny węgla oraz drewna zmniejszone o 30%.<br/>
@@ -199,7 +199,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 10:
             return `
-            <img class="prog_img" src="images/gospodarka.jpg" alt="zdjęcie">
+            <img class="prog_img" src="images/program/samodzielne_pokolenie.jpg" alt="zdjęcie">
             <p class="heading">10. Wprowadzimy projekt “samodzielne pokolenie”<p/>
             <p class="points">
             <span>9.1.</span> Śluby urzędowe możliwe od 16 roku życia.<br/>

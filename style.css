@@ -114,7 +114,6 @@ body {
 }
 #main_content .prog_img {
     order: 2;
-    margin-top: 10%;  
     margin-left: 4%;
 
     display: block;
@@ -136,7 +135,7 @@ body {
     width: 100%;
     height: 20%;
 
-    color: rgb(218, 207, 5);
+    color: #F53D29;
     text-shadow: 0 0 0.4rem black;
 }
 #main_content .points {
@@ -234,7 +233,7 @@ footer p {
     }
     #main_content .prog_img {
         max-height: 30%;
-        width: 30%;
+        width: 35%;
     }
     .white_space {
         height: 25vh;
