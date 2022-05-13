@@ -136,7 +136,7 @@ body {
     width: 100%;
     height: 20%;
 
-    color: rgb(218, 207, 5);
+    color: #F53D29;
     text-shadow: 0 0 0.4rem black;
 }
 #main_content .points {
@@ -192,7 +192,7 @@ body {
 #right_blank {
     right: 0%;
 }
-/*white spacing div setup*/
+/*white space div setup*/
 .white_space {
     width: 10vh;
     height: 90vh;
