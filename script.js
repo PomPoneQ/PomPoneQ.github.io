@@ -129,7 +129,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 2:
             return `
-            <img class="prog_img" src="images/program/służba_zdrowia.jpg" alt="zdjęcie">
+            <img class="prog_spec" src="images/program/służba_zdrowia.jpg" alt="zdjęcie">
             <p class="heading">2. Lepsza służba zdrowia<p/>
             <p class="points">
             <span>2.1.</span> Wprowadzenie bezpłatnych badań kontrolnych dla osób powyżej 50 roku życia.<br/>
@@ -138,7 +138,7 @@ function SetBodyContent(target_page) {
             </p>`;
         case 3:
             return `
-            <img class="prog_img" src="images/program/Ekologia.jpg" alt="zdjęcie">
+            <img class="prog_spec" src="images/program/Ekologia.jpg" alt="zdjęcie">
             <p class="heading">3. Ekologiczna Polska<p/>
             <p class="points">
             <span>3.1.</span> Objęcie większych lasów ochroną.<br/>
